@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110583EE2742CAEA001CE4E8 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 110583ED2742CAEA001CE4E8 /* start.txt */; };
 		110AC1CF2742BF3E0006D8DB /* SwiftUI_WordScrambleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110AC1CE2742BF3E0006D8DB /* SwiftUI_WordScrambleApp.swift */; };
 		110AC1D12742BF3E0006D8DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110AC1D02742BF3E0006D8DB /* ContentView.swift */; };
 		110AC1D32742BF3F0006D8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110AC1D22742BF3F0006D8DB /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110583ED2742CAEA001CE4E8 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		110AC1CB2742BF3E0006D8DB /* SwiftUI-WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-WordScramble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		110AC1CE2742BF3E0006D8DB /* SwiftUI_WordScrambleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WordScrambleApp.swift; sourceTree = "<group>"; };
 		110AC1D02742BF3E0006D8DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				110AC1CE2742BF3E0006D8DB /* SwiftUI_WordScrambleApp.swift */,
 				110AC1D02742BF3E0006D8DB /* ContentView.swift */,
+				110583ED2742CAEA001CE4E8 /* start.txt */,
 				110AC1D22742BF3F0006D8DB /* Assets.xcassets */,
 				110AC1D42742BF3F0006D8DB /* Preview Content */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				110AC1D62742BF3F0006D8DB /* Preview Assets.xcassets in Resources */,
+				110583EE2742CAEA001CE4E8 /* start.txt in Resources */,
 				110AC1D32742BF3F0006D8DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +281,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
